@@ -28,3 +28,7 @@ module CCuDNN [system] {
   link "cudnn"
 }
 
+module CMAGMA [system] {
+  header "magma.h"
+  link "magma"
+}
